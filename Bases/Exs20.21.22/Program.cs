@@ -28,6 +28,21 @@ namespace Exs20._21._22
             // x igual a  15.9%
             // y igual a 112.3%
             // p formats double as percentage
+
+            // 22)
+            int a = 10;
+            int b = 100;
+            int c = 1000;
+
+            string s1 = String.Format("{0,4}", a);
+            string s2 = String.Format("{0,4}", b);
+            string s3 = String.Format("{0,4}", c);
+
+            Console.WriteLine(s1 + "\n" + s2 + "\n" + s3);
+            //   10
+            //  100
+            // 1000
+            // \n produces a new line
         }
     }
 }
