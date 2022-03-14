@@ -15,8 +15,15 @@ namespace Ex18
             // Get user input
             s = Console.ReadLine();
 
-            // Print user input
-            Console.WriteLine($"String = {s}");
+            // If string has more than 20 characters, print specific message
+            if (s.Length > 20)
+                Console.WriteLine("Too long to read");
+            // Else if string has less than 5 characters, print different message
+            else if (s.Length < 5)
+                Console.WriteLine("That's not very meaningful, is it?");
+            // Else, print default message
+            else
+                Console.WriteLine("Ok, if you say so.");
         }
     }
 }
