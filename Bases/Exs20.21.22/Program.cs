@@ -18,6 +18,16 @@ namespace Exs20._21._22
             // occupies, in this case, 5 to the left; f indicates that 
             // variable is formatted as float; 2 indicates number of decimal
             // spaces it occupies
+
+            // 21)
+            double x = 0.1592;
+            double y = 1.1231;
+
+            Console.WriteLine($"x igual a {x,6:p1}");
+            Console.WriteLine($"y igual a {y,6:p1}");
+            // x igual a  15.9%
+            // y igual a 112.3%
+            // p formats double as percentage
         }
     }
 }
