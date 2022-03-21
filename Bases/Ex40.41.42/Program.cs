@@ -4,10 +4,6 @@ namespace Ex40._41._42
 {
     class Program
     {
-        const int ROCK = 1;
-        const int PAPER = 2;
-        const int SCISSORS = 3;
-
         static void Main(string[] args)
         {
             int p1, p2, result;
@@ -41,19 +37,21 @@ namespace Ex40._41._42
         {
             int score;
 
+            Moves p1Move = (Moves) player1, p2Move = (Moves) player2;
+
             if (player1 == player2)
             {
-                score = 0; // Draw
+                score = (int) Results.Draw; // Draw
             }
-            if (((player1 == ROCK) && (player2 == SCISSORS)) ||
-                ((player1 == SCISSORS) && (player2 == PAPER)) ||
-                ((player1 == PAPER) && (player2 == ROCK)))
+            if (((p1Move == Moves.Rock) && (p2Move == Moves.Scissors)) ||
+                ((p1Move == Moves.Scissors) && (p2Move == Moves.Paper)) ||
+                ((p1Move == Moves.Paper) && (p2Move == Moves.Rock)))
             {
-                score = 1; // Player 1 wins
+                score = (int) Results.P1Win; // Player 1 wins
             }
             else
             {
-                score = 2; // Player 2 wins
+                score = (int) Results.P2Win; // Player 2 wins
             }
 
             return score;
