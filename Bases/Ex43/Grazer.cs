@@ -1,7 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Ex43
 {
@@ -9,12 +6,16 @@ namespace Ex43
     {
         private static int Eat(Terrain t)
         {
-            
+            int i = (int) t;
+
+            return i;
         }
 
         private static int Eat(BonusTerrain bt)
         {
-            
+            int i = (int) bt * 10;
+
+            return i;
         }
     }
 }
