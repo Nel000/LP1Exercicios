@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ex41
+namespace Ex40._41._42
 {
     class Program
     {
