@@ -4,9 +4,28 @@ namespace Ex41
 {
     class Program
     {
+        const int ROCK = 1;
+        const int PAPER = 2;
+        const int SCISSORS = 3;
+
         static void Main(string[] args)
         {
-            
+            int p1, p2, result;
+
+            Console.WriteLine("Options: Rock (1) - Paper (2) - Scissors (3)");
+
+            Console.Write("Player 1, place your option: ");
+            p1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Player 2, place your option: ");
+            p2 = Convert.ToInt32(Console.ReadLine());
+
+            result = RockPaperScissors(p1, p2);
+
+            if (result > 0)
+                Console.WriteLine($"Player {result} wins!");
+            else
+                Console.WriteLine("It's a draw!");
         }
 
         /// <summary>
