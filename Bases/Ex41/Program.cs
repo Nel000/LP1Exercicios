@@ -20,20 +20,24 @@ namespace Ex41
         /// </returns>
         static int RockPaperScissors(int player1, int player2)
         {
+            int score;
+
             if (player1 == player2)
             {
-                return 0; // Draw
+                score = 0; // Draw
             }
             if (((player1 == ROCK) && (player2 == SCISSORS)) ||
                 ((player1 == SCISSORS) && (player2 == PAPER)) ||
                 ((player1 == PAPER) && (player2 == ROCK)))
             {
-                return 1; // Player 1 wins
+                score = 1; // Player 1 wins
             }
             else
             {
-                return 2; // Player 2 wins
+                score = 2; // Player 2 wins
             }
+
+            return score;
         }
     }
 }
