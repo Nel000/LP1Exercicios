@@ -8,6 +8,10 @@ namespace Ex23
     public class Gun : Weapon
     {
         private Bullet[] bullets;
+
+        // b)
+        public int NumberOfBullets => bullets.Length;
+
         public Gun(float value, int numBullets, float calibre) : base(value)
         {
             bullets = new Bullet[numBullets];
