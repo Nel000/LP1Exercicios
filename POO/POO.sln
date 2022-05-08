@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex01", "Ex01\Ex01.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex23", "Ex23\Ex23.csproj", "{8A315403-5937-402D-90CC-7FA06A81B532}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex24", "Ex24\Ex24.csproj", "{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{8A315403-5937-402D-90CC-7FA06A81B532}.Release|x64.Build.0 = Release|Any CPU
 		{8A315403-5937-402D-90CC-7FA06A81B532}.Release|x86.ActiveCfg = Release|Any CPU
 		{8A315403-5937-402D-90CC-7FA06A81B532}.Release|x86.Build.0 = Release|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Debug|x64.Build.0 = Debug|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Debug|x86.Build.0 = Debug|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Release|x64.ActiveCfg = Release|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Release|x64.Build.0 = Release|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Release|x86.ActiveCfg = Release|Any CPU
+		{4AB2322F-F6E7-4C77-812C-D6C6DBC81BFF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
